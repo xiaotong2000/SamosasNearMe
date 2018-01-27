@@ -17,3 +17,5 @@ Download project:
 
 Lastly, open the project in android studio & run it using a physical device or emulator.
 
+API Information here : https://docs.google.com/document/d/10JHzvzA3HEXjomdqb_NtVm6RBECFuwODu4X-5in6lGA/edit?ts=5a6cc5c2
+
