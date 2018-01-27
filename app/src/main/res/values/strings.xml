@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SamosasNearMe</string>
+    <string name="samosas_default">Samosas</string>
+    <string name="pho_default">Pho</string>
+    <string name="burrito_default">Burrito</string>
+    <string name="brunch_default">Brunch</string>
+    <string name="Sushi_default">Sushi</string>
+    <string name="Froyo_default">Froyo</string>
+    <string name="add_location_str">+</string>
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#215666</color>
+    <color name="colorPrimaryDark">#3F4D51</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="sm_blue">#FF40a4c4</color>
+
+    <color name="sm_blue_2">#cc40a4c4</color>
+
+    <color name="sm_grey_1">#888888</color>
+    <color name="sm_lightest_grey">#c6c6c6</color>
+    <color name="sm_yellow">#FDD465</color>
+    <color name="sm_green_1">#69ab63</color>
+    <color name="sm_green_bright">#6dd462</color>
+    <color name="sm_fresh_green">#3AA12F</color>
+
+    <color name="sm_deep_blue">#215666</color>
+    <color name="sm_white">#ffffff</color>
+
+    <color name="sm_grey_2">#3F4D51</color>
+    <color name="sm_grey_3">#323D40</color>
+    <color name="sm_grey_dark_1">#262C2D</color>
+    <color name="global_toolbar_btn_active">#ffffff</color>
+
+    <color name="sm_grey_dark_2">#ff293437</color>
+
+    <color name="sm_black">#88000000</color>
+
+    <color name="sm_grey_dark_3">#ff424242</color>
+
+    <color name="sm_grey_dark_4">#4D808080</color>
+
+    <color name="dev_red_500">#D25A4D</color>
+    <color name="dev_red_700">#B43B2E</color>
+
+    <color name="highlight_banner_bar1">#FFFADD5F</color>
+    <color name="highlight_banner_bar2">#FFF5A623</color>
+    <color name="highlight_banner_bar3">#FFF85B5B</color>
+    <color name="highlight_banner_bar4">#FF84E1EB</color>
+    <color name="highlight_banner_bar5">#FF5C75DC</color>
+
+    <color name="superfans_hashtag_color_for_rank">#b2dfee</color>
+    <color name="notification_event_unread">#F1FAFD</color>
+
+    <color name="new_pill_background">#DA54E4</color>
+
+    <color name="limited_user_banner_background">#F8F2B7</color>
+    <color name="limited_user_banner_text_color">#CFC66D</color>
+    <color name="facebook_button_color">#3c5a96</color>
+</resources>

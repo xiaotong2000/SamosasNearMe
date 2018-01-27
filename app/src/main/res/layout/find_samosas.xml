@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/find_samosas"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sm_grey_dark_1"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/toolbar_custom"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:background="@color/colorPrimary"
+        android:paddingEnd="@dimen/size_16_dp"
+        android:paddingStart="@dimen/size_16_dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:text="@string/app_name"
+            android:textColor="@color/sm_white"
+            android:textSize="@dimen/size_text_20"/>
+
+        <TextView
+            android:id="@+id/add_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:text="@string/add_location_str"
+            android:textColor="@color/sm_white"
+            android:textSize="@dimen/size_text_30"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/parent_pills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/size_16_dp"
+        android:layout_marginEnd="@dimen/size_16_dp"
+        android:layout_marginStart="@dimen/size_16_dp"
+        android:layout_marginTop="@dimen/size_16_dp">
+
+        <TextView
+            android:id="@+id/samosas_pill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/size_8_dp"
+            android:layout_marginStart="@dimen/size_8_dp"
+            android:layout_marginTop="@dimen/size_16_dp"
+            android:background="@drawable/bg_food_pill"
+            android:padding="@dimen/size_20_dp"
+            android:text="@string/samosas_default"
+            android:textColor="@color/sm_white"
+            android:textSize="20sp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/burrito_pill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_toEndOf="@+id/samosas_pill"
+            android:layout_toRightOf="@+id/samosas_pill"
+            android:background="@drawable/bg_food_pill"
+            android:padding="@dimen/size_20_dp"
+            android:text="@string/burrito_default"
+            android:textColor="@color/sm_white"
+            android:textSize="16sp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/pho_pill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/samosas_pill"
+            android:layout_marginEnd="@dimen/size_8_dp"
+            android:layout_marginStart="@dimen/size_8_dp"
+            android:layout_marginTop="@dimen/size_16_dp"
+            android:background="@drawable/bg_food_pill"
+            android:padding="@dimen/size_20_dp"
+            android:text="@string/pho_default"
+            android:textColor="@color/sm_white"
+            android:textSize="25sp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/brunch_pill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/burrito_pill"
+            android:layout_marginEnd="@dimen/size_8_dp"
+            android:layout_marginStart="@dimen/size_8_dp"
+            android:layout_marginTop="@dimen/size_16_dp"
+            android:layout_toEndOf="@+id/pho_pill"
+            android:layout_toRightOf="@+id/pho_pill"
+            android:background="@drawable/bg_food_pill"
+            android:padding="@dimen/size_20_dp"
+            android:text="@string/brunch_default"
+            android:textColor="@color/sm_white"
+            android:textSize="20sp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/froyo_pill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pho_pill"
+            android:layout_marginEnd="@dimen/size_8_dp"
+            android:layout_marginStart="@dimen/size_8_dp"
+            android:layout_marginTop="@dimen/size_16_dp"
+            android:background="@drawable/bg_food_pill"
+            android:padding="@dimen/size_20_dp"
+            android:text="@string/Froyo_default"
+            android:textColor="@color/sm_white"
+            android:textSize="16sp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/sushi_pill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/brunch_pill"
+            android:layout_marginEnd="@dimen/size_8_dp"
+            android:layout_marginStart="@dimen/size_8_dp"
+            android:layout_marginTop="@dimen/size_16_dp"
+            android:layout_toEndOf="@+id/froyo_pill"
+            android:layout_toRightOf="@+id/froyo_pill"
+            android:background="@drawable/bg_food_pill"
+            android:padding="@dimen/size_20_dp"
+            android:text="@string/Sushi_default"
+            android:textColor="@color/sm_white"
+            android:textSize="25sp"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <View android:layout_width="match_parent"
+          android:layout_height="0.5dp"
+          android:background="@color/sm_white"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center_horizontal"/>
+</LinearLayout>
